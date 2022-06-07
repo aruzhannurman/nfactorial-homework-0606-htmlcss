@@ -178,50 +178,50 @@ body {
 
 
 
-  @media screen and (max-width: 768px) {
+  @media only screen and (max-width: 675px) {
 
     .row {
       flex-direction: column;
     }
 
     .b1{
-      width:60px;
+      width: 50px;
       
     }
     .b2{
-      width:60px;
+      width:50px;
      
     }
     .b3{
-      width:60px;
+      width:50px;
       
     }
     .b5{
-      width:60px;
+      width:50px;
       
     }
     .b4{
-      width:60px;
+      width:50px;
     }
   
     .b19{
-      width:60px;
+      width:50px;
       
     }
     .b29{
-      width:60px;
+      width:50px;
       
     }
     .b39{
-      width:60px;
+      width:50px;
       
     }
     .b59{
-      width:60px;
+      width:50px;
       
     }
     .b49{
-      width:60px;
+      width:50px;
     }
   
   }

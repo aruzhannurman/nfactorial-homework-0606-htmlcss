@@ -1,0 +1,234 @@
+body {
+    margin: 20px 40px;
+  }
+  
+  p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 16px;
+  }
+  
+  /*--- This is the CSS class for the green rectangular blocks. Note that it uses display: flex ---*/
+  .wrapper {
+    display: flex;
+    height: 60px;
+    background-color: green;
+    margin-bottom: 20px;
+  }
+  
+  /*--- flex: 1 makes it so that the div takes up all available space left in the parent element ---*/
+  .redExample {
+    flex: 1;
+    background-color: red;
+  }
+  
+  /*--- Since both .redExample and .blueExample have flex: 1, they will take up an equal amount of space because they meet in the middle ---*/
+  .blueExample {
+    flex: 1;
+    background-color: rgb(114, 8, 212);
+  }
+  
+  /*--- flex-direction: row-reverse orders all child elements starting from right to left ---*/
+  
+  .emptyExample2 {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+  }
+
+  .blueExample2 {
+    width: 80px;
+    background-color: rgb(114, 8, 212);
+  }
+
+  .emptyExample3p1 {
+    display: flex;
+    flex: 1;
+  }
+  .redExample3{
+    width: 80px;
+    background-color: red;
+
+  }
+  .emptyExample3p2{
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+  }
+  .blueExample3{
+    width: 80px;
+    background-color: rgb(114, 8, 212);
+  }
+
+  .redExample4 {
+   
+    flex:1;
+    background-color: red;
+  }
+  
+
+  .blueExample4 {
+    width: 80px;
+    background-color: rgb(114, 8, 212);
+  }
+  .emptyExample5{
+    width:15px;
+    margin: auto;
+   padding:20px;
+   background-color: red;
+  }
+  .emptyExample6{
+    flex:1;
+    background-color: red;
+  }
+  .box6{
+    width:30px;
+    margin: auto;
+   padding:30px;
+   background-color: rgb(114, 8, 212);
+
+  }
+  
+  .emptyExample7p1 {
+    display: flex;
+    flex: 1;
+  }
+  .redExample7{
+    width: 80px;
+    background-color: red;
+
+  }
+  .emptyExample7p2{
+    
+
+    display: flex;
+    width:100%;
+    flex-direction: column;
+  justify-content: space-between;
+  
+   
+  }
+
+  .blueExample7p1{
+    width: 100%;
+    height:20px;
+    background-color: rgb(114, 8, 212);
+  }
+
+  .blueExample7p2{
+    width: 100%;
+    height:20px;
+    background-color: rgb(114, 8, 212);
+  }
+  
+  .part8{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+
+  }
+  .b1{
+    width:80px;
+    background-color: rgb(255, 242, 0);
+  }
+  .b2{
+    width:80px;
+    background-color: rgb(255, 242, 0);
+  }
+  .b3{
+    width:80px;
+    background-color: rgb(255, 242, 0);
+  }
+  .b5{
+    width:80px;
+    background-color: rgb(255, 242, 0);
+  }
+  .b4{
+    width:80px;
+    background-color: rgb(255, 242, 0);
+  }
+
+  .part9{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+
+  }
+  .b19{
+    width: 250px;
+    background-color: rgb(255, 242, 0);
+  }
+  .b29{
+    width:250px;
+    background-color: rgb(255, 242, 0);
+  }
+  .b39{
+    width:250px;
+    background-color: rgb(255, 242, 0);
+  }
+  .b59{
+    width:250px;
+    background-color: rgb(255, 242, 0);
+  }
+  .b49{
+    width:250px;
+    background-color: rgb(255, 242, 0);
+  }
+
+
+
+  @media screen and (max-width: 768px) {
+
+    .row {
+      flex-direction: column;
+    }
+
+    .b1{
+      width:60px;
+      
+    }
+    .b2{
+      width:60px;
+     
+    }
+    .b3{
+      width:60px;
+      
+    }
+    .b5{
+      width:60px;
+      
+    }
+    .b4{
+      width:60px;
+    }
+  
+    .b19{
+      width:60px;
+      
+    }
+    .b29{
+      width:60px;
+      
+    }
+    .b39{
+      width:60px;
+      
+    }
+    .b59{
+      width:60px;
+      
+    }
+    .b49{
+      width:60px;
+    }
+  
+  }
+
+
+
+  
+
+  /* TODO: Add CSS for the rest of your solution below */
+  

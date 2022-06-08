@@ -12,7 +12,7 @@ p {
 /*--- This is the CSS class for the green rectangular blocks. Note that it uses display: flex ---*/
 .wrapper {
   display: flex;
-  height: 70px;
+  height: 60px;
   background-color: green;
   margin-bottom: 20px;
 }
